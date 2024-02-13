@@ -1537,7 +1537,7 @@ body {
 }
 
 .cuadro-r {
-  left: 20vw;
+  left: 21vw;
 }
 .cuadro-r__front {
   background-image: url("https://rawcdn.githack.com/ricardoolivaalonso/Codepen/43200238c3177b02a97423fa6cc23f8bfcc5c105/Room/cuadro-2.jpg");
@@ -2137,7 +2137,7 @@ body {
 
 .mesa-c {
   position: absolute;
-  left: 7vw;
+  left: 6vw;
   top: 9.5vw;
   width: 10vw;
   height: 9vw;
@@ -2336,7 +2336,7 @@ body {
 
 .tablet {
   position: absolute;
-  left: 13vw;
+  left: 10vw;
   top: 12vw;
   width: 2vw;
   height: 2.5vw;
