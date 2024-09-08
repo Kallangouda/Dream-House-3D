@@ -20,8 +20,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 101%;
-  height: 101vh;
+  width: 100%;
+  height: 100vh;
   overflow: hidden;
   cursor: pointer;
   background-image: radial-gradient(circle, #171424, black);
@@ -43,15 +43,15 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  width: 101%;
-  height: 101%;
+  width: 100%;
+  height: 100%;
   box-shadow: 1.5vw -3vw 3vw black, 1.5vw 0.5vw 1.5vw black;
 }
 
 .h-lights {
   position: absolute;
-  top: 51%;
-  left: 51%;
+  top: 50%;
+  left: 50%;
   transform: translateX(-50%) translateY(-50%);
   width: 45vw;
   height: 45vw;
@@ -65,7 +65,7 @@ body {
   right: 0;
   width: 15vw;
   height: 15vw;
-  border-radius: 51%;
+  border-radius: 50%;
   background-image: radial-gradient(#1b182a, transparent);
   filter: blur(1vw);
 }
@@ -74,7 +74,7 @@ body {
   right: -1vw;
   width: 2vw;
   height: 12vw;
-  border-radius: 51%;
+  border-radius: 50%;
   transform: rotateZ(-50deg);
   background-image: radial-gradient(rgba(81, 137, 251, 0.45) 50%, rgba(40, 125, 210, 0.45), transparent);
   box-shadow: -1vw -1vw 2vw 1vw rgba(131, 171, 252, 0.1);
@@ -85,7 +85,7 @@ body {
   right: 17vw;
   width: 5vw;
   height: 12vw;
-  border-radius: 51%;
+  border-radius: 50%;
   transform: rotateZ(-50deg);
   background-image: radial-gradient(rgba(81, 137, 251, 0.5) 50%, rgba(40, 125, 210, 0.5), transparent);
   filter: blur(2vw);
@@ -93,9 +93,9 @@ body {
 .h-light:nth-of-type(3)::before, .h-light:nth-of-type(3)::after {
   content: "";
   position: absolute;
-  width: 201%;
+  width: 200%;
   top: -6vw;
-  height: 401%;
+  height: 400%;
   background-image: linear-gradient(to bottom, rgba(40, 125, 210, 0.1), rgba(81, 137, 251, 0.1), transparent);
   border-top-left-radius: 10vw;
   border-top-right-radius: 10vw;
